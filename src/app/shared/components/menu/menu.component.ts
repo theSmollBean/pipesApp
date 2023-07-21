@@ -20,14 +20,17 @@ export class MenuComponent {
           {
             label: 'Textos y flechas',
             icon: 'pi pi-align-left',
+            routerLink: '/',
           },
           {
             label: 'Números',
             icon: 'pi pi-dollar',
+            routerLink: 'numbers',
           },
           {
             label: 'No común',
             icon: 'pi pi-globe',
+            routerLink: 'uncommon'
           },
         ]
       },
